@@ -1,154 +1,158 @@
-<!DOCTYPE HTML>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<html>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Testing NZY</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css">
 
-<body>
-
-<p>Notice how this content isn't centered. To center it we need to wrap it</p>
-
-	<section>
-		<h1>Here is some centered content, by wrapping it with a section tag</h1>
-		<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci. </em></p>
-
-		<p>Notice how if you change the width of your browser it stays in the center</p>
-	</section>
-
-	<section>
-		<p>This is a simple nav bar, which is full width of the page</p>
-	</section>
-	<nav>
-		<h3>A nice navigation bar</h3>
-		<a href="#one">Link 1</a>
-		<a href="#two">Link 2</a>
-		<a href="#three">Link 3</a>
-	</nav>
-
-	<section id="one">
-		<p><strong>Content number one</strong></p>
-		<p>By setting an a tag's href to "#one", it will link to a html element with the id of "one". <a href="https://css-tricks.com/hash-tag-links-padding/">More info about that here</a></p>
-	</section>
-
-	<section id="two">
-		<p><strong>Content number 2</strong></p>
-	</section>
-
-	<section id="three">
-		<p><strong>Content number 3</strong></p>
-	</section>
-
-	<header>
-		<section>
-			<h1>This header has a solid background and some padding</h1>
-			<p>There is also a section tag inside it to center this content</p>
-		</section>
-	</header>
-
-	
-
-	<section>
-		<h3>Grids</h3>
-
-		<p>Use grids to divide up or layout content. For example, putting an image on the left, and lots to text on the right</p>
-
-		<p>I've added a 'show' class so you can see where the grids are. Use chrome's web inspector tools to take a closer look</p>
+    <title>Internet Infrastructure in Wellington</title>
+  </head>
+  <body>
+    
 
 
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#intro">Introduction</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#devices">Devices</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#resgate">Residential Gateway</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#homefix">Fixed Line Point</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#pubinfra">Public Infrastructure</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#isp">ISP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#cables">Submarine Cables</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-			<div class="g-30 show">
-				30% width .g-30
-			</div>
 
-			<div class="g-70 show">
-				70% width .g-70
-			</div>
-		</div>
+<main role="main">
+<div class="container mx-auto" style="margin-top:5rem;">	
+  <div class="row min-vh-100">
+    <span id="intro"></span>
+  	<div class="col-12 my-auto">
+      <h2 class="text-center">Internet Infrastructure in Wellington</h2>
+      <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+      <br />
+      <br />
+      <br />
+      <a class="btn btn-outline-secondary float-right" href="#devices" role="button">Next</a>
+    </div>
 
-		<p>The other cool things about grids, is that 50% width means 50% of the div's <em>parent</em>. This means you can put cells in cells to get infinitly smaller sizes. The possiblities are endless!</p>
+  </div>
+  <div class="row min-vh-100">
+    <span id="devices"></span>
+  	<div class="col-8 my-auto"><img src="img/device.png" class="img-fluid" alt="Devices"></div>
+      <div class="col-4 my-auto">
+      <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+      <br />
+      <br />
+      <br />
+      <a class="btn btn-outline-secondary float-right" href="#resgate" role="button">Next</a>
+    </div>
+  </div>
+  <div class="row min-vh-100">
+    <span id="resgate"></span>
+    <div class="col-8 my-auto"><img src="img/resgate.png" class="img-fluid" alt="Residential Gateway"></div>
+    <div class="col-4 my-auto">
+      <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+      <br />
+      <br />
+      <br />
+      <a class="btn btn-outline-secondary float-right" href="#homefix" role="button">Next</a>
+    </div>
+  </div>
+  <div class="row min-vh-100">
+    <span id="homefix"></span>
+    <div class="col-8 my-auto"><img src="img/homefix.png" class="img-fluid" alt="Fixed Line Point"></div>
+    <div class="col-4 my-auto">
+      <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+      <br />
+      <br />
+      <br />
+      <a class="btn btn-outline-secondary float-right" href="#pubinfra" role="button">Next</a>
+    </div>
+  </div>
+  <div class="row min-vh-100">
+    <span id="pubinfra"></span>
+    <div class="col-8 my-auto"><img src="img/pubinfra.png" class="img-fluid" alt="Public Infrastructure"></div>
+    <div class="col-4 my-auto">
+      <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+      <br />
+      <br />
+      <br />
+      <a class="btn btn-outline-secondary float-right" href="#isp" role="button">Next</a>
+    </div>
+  </div>
+  <div class="row min-vh-100">
+    <span id="isp"></span>
+    <div class="col-8 my-auto"><img src="img/isp.png" class="img-fluid" alt="ISP"></div>
+    <div class="col-4 my-auto">
+      <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+      <br />
+      <br />
+      <br />
+      <a class="btn btn-outline-secondary float-right" href="#cables" role="button">Next</a>
+    </div>
+  </div>
+  <div class="row min-vh-100">
+    <span id="cables"></span>
+    <div class="col-8 my-auto"><img src="img/cables.png" class="img-fluid" alt="Submarine Cables"></div>
+    <div class="col-4 my-auto">
+      <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+      <br />
+      <br />
+      <br />
+      <a class="btn btn-outline-secondary float-right" href="#" role="button">Back to the top</a>
+    </div>
+  </div>
+    </div>
+</main>
 
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				<div class="g-50 show">
-					<div class="g-50 show">
-						50%
-					</div>
-					<div class="g-50 show">
-						50%
-					</div>
-				</div>
-				<div class="g-50 show">
-					50%
-				</div>
-			</div>
-			<div class="g-50 show">
-				50%
-			</div>
-		</div>
 
-		<p>Here's a simple page using all of these elements</p>
-	</section>
 
-	<header>
-		<section>
-			<h1>Infrastructure of Wellington</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		</section>
-	</header>
 
-	<section>
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
 
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
 
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
 
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
-	</section>
 
-</body>
 
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
