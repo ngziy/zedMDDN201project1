@@ -22,7 +22,7 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="index.html">Introduction</a>
+          <a class="nav-link" href="index.html">Introduction</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="device.html">Devices</a>
@@ -40,35 +40,34 @@
           <a class="nav-link" href="isp.html">ISPs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="cable.html">Submarine Cables</a>
+          <a class="nav-link active" href="cable.html">Submarine Cables</a>
         </li>
       </ul>
     </div>
   </nav>
-
   <main role="main">
     <div class="container mx-auto">
+
       <div class="row min-vh-100">
-        <span id="intro"></span>
-        <div class="col-12 my-auto">
-          <h2 class="text-center">Internet Infrastructure in Wellington</h2>
-          <br />
-          <p class="text-justify">We are living in a new technological age where you can get all the information you wanted (and did not want) in a click of a mouse or tap of the screen. But have you ever thought about the physical manifestation and
-            infrastructures required for you to send the inquiry and receiving the information back from all over the world? This website is a simplified exploration of the physical manifestation and infrastructures from the point of view of a
-            typical household in the context of Wellington and New Zealand.</p>
+        <span id="cables"></span>
+        <div class="col-8 my-auto"><img src="img/cables.png" class="img-fluid" alt="Submarine Cables"></div>
+        <div class="col-4 my-auto">
+          <h4 class="text-left">International Submarine Communications Cables</h4>
+          <p class="text-justify">The POI then redirects the data and request out to either other data centres located locally in Wellington and New Zealand, to other local networks, or through the international submarine communications cables that
+            is connects Wellington and New Zealand to the rest of the world.</p>
+          <p>There are currently 3 main International Submarine Communications Cables connecting New Zealand to the rest of the world:</p>
+          <ul>
+            <li>Hawaiki Cable</li>
+            <li>Southern Cross Cable</li>
+            <li>Tasman Global Access (TGA) Cable</li>
+          </ul>
           <br />
           <small>
-            <p>Information gathered from the following:</p>
-            <ul>
-              <li><a href="https://www.chorus.co.nz/our-network" class="badge badge-light" target="_blank">Our network | Chorus</a></li>
-              <li><a href="https://www.chorus.co.nz/identifying-our-network" class="badge badge-light" target="_blank">Identifying our network | Chorus</a></li>
-              <li><a href="https://arstechnica.com/information-technology/2016/05/how-the-internet-works-submarine-cables-data-centres-last-mile/" class="badge badge-light" target="_blank">How the Internet works: Submarine fiber, brains in jars, and
-                  coaxial cables | Ars Technica</a></li>
-            </ul>
-            <p>Pages designed to be viewed in 1980 x 1080</p>
+            <p>Click <a href="https://www.submarinecablemap.com/" class="badge badge-light" target="_blank">here</a> for a view of the Submarine Cable Map by TeleGeography. </p>
           </small>
           <br />
-          <a class="btn btn-outline-secondary float-right" href="device.html" role="button">Next</a>
+          <a class="btn btn-outline-secondary float-left" href="isp.html" role="button">Internet Service Providers</a>
+          <a class="btn btn-outline-secondary float-right" href="index.html" role="button">Back to the start</a>
         </div>
       </div>
     </div>
